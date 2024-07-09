@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <title>ITSERV</title>
+  
+  <link rel="stylesheet" href="{{ '/assets/css/common.css' | relative_url }}">
+</head>
+
+<body>
+  <nav class="nav-container">
+    <h1 class="logo"><a href="/">ITSERV</a></h1>
+    <span
+      class="sidebar-toggler"
+      role="btn"
+      onClick="
+        document.getElementsByClassName('nav')[0].classList.toggle('open');
+        document.getElementsByClassName('sidebar-toggler')[0].classList.toggle('open');">
+      menu
+    </span>
+    <ul class="nav">
+      <li class="nav__item">
+        <a href="/solutions">Solutions</a>
+<!--        <ul class="subnav">
+          <li class="nav__item"><a href="/solutions/infrastructure-management">Infrastructure management</a></li>
+          <li class="nav__item"><a href="/solutions/workflow-modernisation">Workflow modernisation</a></li>
+          <li class="nav__item"><a href="/solutions/devsecops-enablement">DevSecOps enablement</a></li>
+        </ul>
+      </li>-->
+      <li class="nav__item">
+        <a href="/services">Services</a>
+<!--        <ul class="subnav">
+          <li class="nav__item"><a href="/services/dev/code-security-and-compliance">Code security and compliance</a></li>
+          <li class="nav__item"><a href="/services/infra/cloud-storage">Cloud storage</a></li>
+          <li class="nav__item"><a href="/services/infra/domain-name">Domain name</a></li>
+          <li class="nav__item"><a href="/services/infra/email">Email</a></li>
+          <li class="nav__item"><a href="/services/infra/web-hosting">Web hosting</a></li>
+          <li class="nav__item"><a href="/services/infra/endpoint-protection">Endpoint protection (SIEM & XDR)</a></li>
+          <li class="nav__item"><a href="/services/infra/learning-management-system">Learning management system (LMS)</a></li>
+          <li class="nav__item"><a href="/services/infra/microsoft-365">Microsoft 365</a></li>
+        </ul>-->
+      </li>
+<!--      <li class="nav__item">
+        <a href="/industries">Industries</a>
+        <ul class="subnav">
+          <li class="nav__item"><a href="/industries/">Education</a></li>
+          <li class="nav__item"><a href="/industries/retail">Retail</a></li>
+          <li class="nav__item"><a href="/industries/architects">Architect</a></li>
+        </ul>
+      </li>-->
+<!--      <li class="nav__item">
+        <a href="/community">Community</a>
+        <ul class="subnav">
+          <li class="nav__item"><a href="/blog">Blog</a></li>
+          <li class="nav__item"><a href="/community/open-source">Open source</a></li>
+          <li class="nav__item"><a href="/community/usenet-sg">Usenet SG</a></li>
+          <li class="nav__item"><a href="/community/persist-sg">Persist SG</a></li>
+        </ul>
+      </li>-->
+      <li class="nav__item">
+        <a href="/about-us">About</a>
+<!--        <ul class="subnav">
+          <li class="nav__item"><a href="/about/us">About us</a></li>
+          <li class="nav__item"><a href="/about/how-we-work">How we work</a></li>
+          <li class="nav__item"><a href="/about/our-principles">Our principles</a></li>
+        </ul>-->
+      </li>
+      <li class="nav__item nav__item--action">
+        <a href="/contact-us">Contact us</a>
+      </li>
+    </ul>
+  </nav>
+
+  {{ content }}
+</body>
+</html>
