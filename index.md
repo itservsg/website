@@ -17,6 +17,18 @@ layout: default
       <a class="btn" href="/about-us">About us.</a>
     </div>
   </section>
+  <section style="justify-content: center;">
+  <div>
+	<h2>Latest articles</h2>
+    <ul style="list-style-type: none">
+      {% for post in site.posts %}
+        <li>
+		  <a class="btn" href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+	</ul>
+  </div>
+  </section>
   <section>
     <div class="section__graphic fancyblock">
       <span class="logo">ITSERV</span>
