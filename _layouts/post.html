@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<style>
+  section:first-of-type {
+      height: auto;
+  }
+  
+  section {
+      align-items: flex-start;
+      display: block;
+      max-width: 920px;
+      margin: 60px auto;
+  }
+  
+  section  * {
+    margin: 1rem 0;
+  }
+
+  section ul, section li {
+      font-size: 1.5rem;
+  }
+
+  h3 {
+      margin-top: 60px;
+      font-size: 2rem;
+  }
+</style>
+<section>
+  <h2>{{ page.title }}</h2>
+  <p>{{ page.date | date_to_string }}</p>
+  {{ content }}
+</section>
+<section class="section--highlight">
+  <h2>Let's discuss.</h2>
+  <p>ITSERV is an SMB-focused IT reseller and MSP designed to accelerate your business growth.</p>
+  <a class="btn" href="/contact-us">Contact us</a>
+</section>
