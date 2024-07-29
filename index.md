@@ -2,19 +2,18 @@
 layout: default
 ---
 <main>
-  <section>
+  <section class="section--hero-homepage">
     <div>
-      <h2>Results through fundamentals.</h2>
-      <p>Achieving cohesive IT security through a strong foundation.</p>
+      <h2>Managed IT Solutions Provider</h2>
+      <p>Accelerate your growth with a trusted partner.</p>
       <a class="btn" href="/services">View our services.</a>
     </div>
   </section>
   <section class="section--highlight section--creep-prior">
     <div>
       <h2>Who are we?</h2>
-      <p>ITSERV is an IT solutions provider established in 2024, specialising in managing common IT infrastructure and services.</p>
-      <p>We take the effort of managing, modernising and securing them while you focus on your business.</p>
-      <p>We also aid in showing your security posture and compliance with industry standards.</p>
+      <p>We are a boutique IT solutions provider with 5 years of experience in supporting local businesses in Singapore. We specialise in understanding each businesses' needs and rightsizing our services for the best value.</p>
+	  <p>We support businesses with curated 8x5 support and dedicated success managers.</p>
       <a class="btn" href="/about-us">About us.</a>
     </div>
   </section>
@@ -24,8 +23,8 @@ layout: default
       <span>Consolidated management</span>
     </div>
     <div>
-      <h2>Conquer your IT stack.</h2>
-      <p>Stop paying retail price to disparate vendors. Let us optimise what you're paying for.</p>
+      <h2>Unify your IT solutions.</h2>
+      <p>Leverage proven technologies with the support your need to grow your business. All through us.</p>
       <!--<span class="btn">How we wrangle your vendors.</span>-->
     </div>
   </section>
@@ -38,25 +37,26 @@ layout: default
     <div class="section__graphic fancyprogressbar">> > > > ></div>
   </section>
   <section>
+	<div class="bar-pillar-container">
+	  <div class="bar-pillar bar-pillar--25" role="presentation"></div>
+	  <div class="bar-pillar bar-pillar--50" role="presentation"></div>
+	  <div class="bar-pillar bar-pillar--100" role="presentation"></div>
+	</div>
     <div>
-      <h2>We love open source.</h2>
-      <p>Harness the power of <abbr title="freely licensed, open source software">FOSS</abbr> with reduced cost and no vendor lock-in.</p>
-      <!--<a class="btn" role="button" href="/solutions/open-source">View our open source work.</a>-->
+      <h2>Just starting out?</h2>
+      <p>Jumpstart your business in record time with us. No more fiddling with different vendors.</p>
     </div>
   </section>
-  <section>
+  <section class="section--post-graphic">
     <div>
-      <h2>Our principles.</h2>
+      <h2>We scale with you.</h2>
       <p>
-        These core pillars underpin our deliverables.
+        Rightsized for your needs, grows with your success.
       </p>
-      <ul>
-        <li>Minimise vendor lock-in.</li>
-        <li>Prioritise reporducibility.</li>
-        <li>Design for portability.</li>
-      </ul>
-      <!--<a class="btn" role="button" href="/solutions/open-source">Learn the <span class="logo-no-pad">ITSERV</span> difference.</a>-->
     </div>
+	<div>
+      <div class="fancyscaleblock" role="presentation"></div>
+	</div>
   </section>
   <section class="section--highlight">
     <div>
